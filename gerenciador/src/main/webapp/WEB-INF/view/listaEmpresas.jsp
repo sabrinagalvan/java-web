@@ -11,8 +11,8 @@
 		<title>Java Standard Taglib</title>
 	</head>
 	<body>
-	
-		Usuario Logado: ${usuarioLogado.login }
+		
+		Usuário logado: ${usuarioLogado.login }
 		
 		<br>
 		<br>
@@ -21,17 +21,19 @@
 			Empresa ${ empresa } cadastrada com sucesso!
 		</c:if>
 		
-		Lista de empresa: <br />
+		Lista de empresas: <br />
 		
 		<ul>
 			<c:forEach items="${empresas}" var="empresa">
 				<li>
 					${empresa.nome} - <fmt:formatDate value="${empresa.dataAbertura}" pattern="dd/MM/yyyy"/>
-					<a href="/gerenciador/entrada?acao=MostrarEmpresa&id=${empresa.id }">Editar</a>
-					<a href="/gerenciador/entrada?acao=RemoverEmpresa&id=${empresa.id }">Remover</a>
+					<a href="/gerenciador/entrada?acao=MostrarEmpresa&id=${empresa.id }">- Editar</a>
+					<a href="/gerenciador/entrada?acao=RemoverEmpresa&id=${empresa.id }">-  Remover</a>
 				</li>
 			</c:forEach>
 		</ul>
-	
+		
+		<c:import url="logout-parcial.jsp" />
+		
 	</body>
 </html>

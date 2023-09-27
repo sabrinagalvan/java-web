@@ -21,5 +21,7 @@
 			
 		</form>
 	
+		<c:import url="logout-parcial.jsp" />
+	
 	</body>
 </html>

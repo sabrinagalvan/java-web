@@ -11,5 +11,7 @@
 			Nenhuma empresa Cadastrada!
 		</c:if>
 
+		<c:import url="logout-parcial.jsp" />
+
 	</body>
 </html>
