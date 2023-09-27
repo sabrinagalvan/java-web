@@ -1,3 +1,0 @@
-INDEX VERSION 1.134
-/home/sabrinagalvan/workspace-java/java-web/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1058648939.index
-/gerenciador/src/main/java

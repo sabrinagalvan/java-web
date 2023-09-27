@@ -1,7 +1,0 @@
-INDEX VERSION 1.4+/home/sabrinagalvan/workspace-java/java-web/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
-1213125074.index
-13059446.index
-1223573623.index
-2942784489.index
-2519221900.index
-4116463608.index
